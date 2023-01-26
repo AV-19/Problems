@@ -19,6 +19,20 @@ public class FirstAndLastDigitSum {
 			int num=sc.nextInt();
 			s.sum(num);
 		}
+		
+// ------------Alternate  Solution-----------------------
+
+// 		int num=sc.nextInt();
+			
+// 		int first=0;
+// 		int last=num%10;
+// 		while(num>0){
+// 			first=num%10;
+// 			num/=10;
+			
+// 		}
+		
+// 		System.out.println(first+last);
 	
 
 	}
